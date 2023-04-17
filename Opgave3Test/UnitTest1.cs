@@ -64,6 +64,7 @@ public class UnitTest1
         // Make sure the class has the expected constructor
         ConstructorInfo[] constructors = DDSType.GetConstructors(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
         Assert.IsTrue(constructors.Length >= 1);
+        _correctTests++;
 
         // Make sure the class has the expected methods
         MethodInfo[] methods = DDSType.GetMethods(BindingFlags.Public | BindingFlags.Instance | BindingFlags.DeclaredOnly);

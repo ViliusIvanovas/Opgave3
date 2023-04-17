@@ -14,8 +14,6 @@ namespace Opgave3
             _age = age;
             _address = address;
             _MitID = MitID;
-
-            //Register(_system);
         }
 
         public void Register(DirectDemocracySystem system)
