@@ -32,7 +32,7 @@ namespace Opgave3
                 }
             }
 
-            if (yesVotes > _requiredVotes)
+            if (yesVotes >= _requiredVotes)
             {
                 return true;
             }
