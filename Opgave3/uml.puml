@@ -36,7 +36,7 @@ rectangle Opgave3{
 
   class Vote {
     - Proposal _proposal
-    - Citizen _voter
+    - Citizen _citizen
     - bool _choice
     + Vote(Proposal proposal, Citizen voter, bool choice)
     + bool GetChoice()
